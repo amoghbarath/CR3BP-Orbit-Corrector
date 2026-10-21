@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+results/campaign_main.jsonl
+.DS_Store

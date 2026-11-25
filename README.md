@@ -15,6 +15,14 @@ distant retrograde) and five members of each.
 
 Every number, table and figure in the paper was produced by this code.
 
+## Data
+
+`data/` holds the per-trial results behind every figure and table in the
+paper as CSV files: the sixty seed orbits (with their Floquet multipliers and
+stability indices), every perturbed start and its outcome for all seven
+correctors, and the directional, absolute-perturbation, tolerance and
+five-seed studies. `data/README.txt` describes every file and column.
+
 ## Requirements
 
 Python 3.10 or later, with the packages in `requirements.txt`:
